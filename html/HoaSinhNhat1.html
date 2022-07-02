@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tiệm Hoa Ánh Xuân</title>
+    <link rel="icon" href="/img/title.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+    <link rel="stylesheet" href="/css/same.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/inter-ui@3.11.0/inter.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="headerIN mt-10 w-80 ">
+
+            <a href="#">
+                <div class="logo ">
+                    <img src="/img/logo.gif" alt="">
+                </div>
+            </a>
+            <nav class="navbar-list mt5">
+                <li class="navbar-item dropdown">
+                    <a href="./index.html" class="navbar-item-link">TRANG CHỦ</a>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="#sản phẩm" class="navbar-item-link">CHỦ ĐỀ</a>
+                    <div class="dropdown-content">
+                        <a href="./HoaTinhYeu1.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tình yêu</a>
+                        <a href="./HoaSinhNhat1.html"><i class="bi bi-flower3 icon-hoa"></i>hoa sinh nhật</a>
+                        <a href="./HoaTotNghiep.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tốt nghiệp</a>
+                        <a href="./HoaCuoi.html"><i class="bi bi-flower3 icon-hoa"></i>hoa cưới</a>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="#product" class="navbar-item-link">THIẾT KẾ</a>
+                    <div class="dropdown-content">
+                        <a href="./bohoa.html"> <i class="bi bi-flower3 icon-hoa"></i>bó hoa </a>
+                        <a href="./hophoa.html"> <i class="bi bi-flower3 icon-hoa"></i> hộp hoa</a>
+                        <a href="./tuihoa.html"> <i class="bi bi-flower3 icon-hoa"></i> túi hoa</a>
+                        <a href="./binhhoa.html"> <i class="bi bi-flower3 icon-hoa"></i> bình hoa</a>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="#review" class="navbar-item-link">HOA TULIP</a>
+                    <div class="dropdown-content">
+                        <a href="./hoatulip.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tulip trắng</a>
+                        <a href="./hoatulip.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tulip hồng</a>
+                        <a href="./hoatulip.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tulip vàng</a>
+                        <a href="./hoatulip.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tulip đỏ</a>
+                        <a href="./hoatulip.html"><i class="bi bi-flower3 icon-hoa"></i>hoa tulip tím</a>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown"><a href="/html/lienhe.html" class="navbar-item-link">GÓP Ý</a></li>
+            </nav>
+            <div class="header-icon ">
+                <a href="#" class="header-icon-link"><i class="fab fa-gratipay"></i></a>
+                <!-- <a href="#" class="header-icon-link has-no-carD"><i class="fas fa-shopping-cart"></i> -->
+                <div id="cart" class="cart header-icon-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <button type="button" class="  header-icon-link" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@getbootstrap"><i class="fas fa-user"></i></button>
+            </div>
+
+        </div>
+        <!-- <div class="wellcome">
+
+            <marquee behavior="alternate" class="w-80 mt-10">
+                CHÀO MỪNG BẠN ĐẾN VỚI TIỆM HOA ÁNH XUÂN
+            </marquee>
+            
+        </div> -->
+
+
+    </div>
+
+    <!--  -->
+    <div class="well-name w-80 mt-10 ">
+        <br>
+        <div class=" container-well">
+            <div class="bubble pink-bubble"></div>
+            <div class="bubble blue-bubble"></div>
+            <div class="bubble small-p-bubble"></div>
+            <div class="bubble small-b-bubble"></div>
+
+            <div class="wellcome ">
+                <img src="/img/cô gái.gif" class="img-w " alt="">
+            </div>
+
+            <!--  -->
+
+            <div class="name">
+                <div class="h-1">
+                  
+                    <h1 >HOA SINH NHẬT</h1>
+                </div>
+                    <strong> sắp xếp theo:
+                        <select size="1" class="select-1" required>
+                            <option value="0">mặc định</option>
+                            <option value="1">giá (cao > thấp</option>
+                            <option value="2">giá (thấp > cao)</option>
+                            <option value="3">tên(a > z) </option>
+                            <option value="4">tên(z > a)</option>
+
+                        </select>
+                    </strong>
+               
+            </div>
+        </div>
+
+    </div>
+
+    <br> <br>
+    <div class="c-sp ">
+
+        <section class="playlists">
+
+
+            <section class="tp mt-10 w-80">
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/febf66ff95ba125a1deb185564f68326.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 350.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                        role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/fc113e6ec7bcfb8d3b90a3c0c15cbfab.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/f84904e716cd14767df89ce94a357e1a.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/f63ba62fc9a8d35a5ac163b8d8339a88.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+        </section>
+    </div>
+    <br> <br>
+    <div class="c-sp ">
+
+        <section class="playlists">
+
+
+            <section class="tp mt-10 w-80">
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/f231ca344f4eccf6d540b29c6d2f7253.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/f112d5fbd4746b11e9e68ce982077ad2.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/ee0ff1ac31886e596d120adc30a822b8.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/e464bc5db716e9ffd307f3a222df23b6.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+        </section>
+    </div>
+    <br> <br>
+    <div class="c-sp ">
+
+        <section class="playlists">
+
+
+            <section class="tp mt-10 w-80">
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/e39e715e2dadbf4e7e516d20993cd2da.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/e35a9d4f38e56965cb051fa5286b350c.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/e0be5d5220d3223b5b29793e888bec8e.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/df2a3570fc69e5c636b0643c36d639e3.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+        </section>
+    </div>
+    <br> <br>
+    <div class="c-sp ">
+
+        <section class="playlists">
+
+
+            <section class="tp mt-10 w-80">
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/dcd9fe52caf16be3c9513e4e30c73393.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/d643a40de1729a4c7d618ac66294eec6.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/d531838a7c53fc9a19d667bdd05b17da.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+                <div class="carD-inner0">
+
+                    <label>
+                        <input type="checkbox">
+                        <div class="like-btn-svg"></div>
+                    </label>
+                    <div class="carD-image">
+
+                        <img src="/img/hoa sinh nhật , tốt nghiệp/d11b4fec58a96140c2d9a2a2ae79c497.jpg" alt="">
+                    </div>
+
+                    <div class="carD-meta">
+                        <h4 class="carD-title">hoa tặng sinh nhật</h4>
+                        <p class="carD-text">Giá : 250.000</p>
+                        <button id="btn-1" class="buy " data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Mua Ngay</button>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+        </section>
+    </div>
+    <br> <br>
+    <div class="list-stt w-80 mt-10">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--       -->
+    <div class="footer">
+        <div class="footer-text w-80 mt-10">
+            <div class="main">
+                <h1>Tiệm Hoa Ánh XUÂn <div class="roller">
+                        <span id="rolltext">UY TÍN<br />
+                            CHẤT LƯỢNG<br />
+                            TẬN TÂM<br />
+                            <span id="spare-time">Mau Đến Tiệm Hoa Ánh Xuân Nào!!!</span><br />
+                    </div>
+                </h1>
+
+            </div>
+        </div>
+      
+        <hr class="w-80 mt-10 " style="height: 3px; color: darkkhaki;">
+        <br>
+        <div class="footer-link w-80 mt-10">
+            <section class="footer-list tp">
+                <li class="li-hover">giới thiệu</li>
+                <li class="li-hover"> thông tin liên hệ</li>
+                <li class="li-hover">chính sách vận chuyển</li>
+                <li class="li-hover">câu hỏi</li>
+                <li class="li-hover"> chính sách thanh toán</li>
+                <li class="li-hover">bảo mật thông tin</li>
+                <li class="li-hover">chính sách đổi trả hoàn tiền</li>
+                <li class="li-hover">tại sao nên chọn chúng tôi</li>
+            </section>
+        </div>
+    </div>
+    <div class="contract tp">
+        <li><i class="fas fa-map-marker-alt"></i> HỒ CHÍ MINH, VN</li>
+        <li><i class="fas fa-phone-alt"></i> phone: <a href="tell:+08 151515">+08 151515</a> </li>
+        <li><i class="fas fa-envelope"></i> email: <a href="mailto:mail@gmail.com">mail@gmail.com</a> </li>
+    </div>
+<script src="/js/script.js"></script>
+</body>
+
+</html>
